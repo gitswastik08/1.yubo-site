@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#main {
+  width: 100%;
+  height: 100%;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  color: black;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 20%;
+}
+.ri-menu-line {
+  font-size: 30px;
+  color: white;
+}
+#navdiv i {
+  background-color: rgb(14, 13, 13) 9, 18, 18;
+  font-size: 25px;
+}
+#navdiv {
+  background-color: rgb(227, 212, 227);
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 2px 2px 4px black;
+}
+#navdiv #line {
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+
+#first_page {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#first_page h1 {
+  font-size: 170px;
+  color: #ffe30a;
+  line-height: 130px;
+  font-family: Helvetica;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: -10 px;
+  font-family: "Passion One", cursive;
+  font-style: italic;
+  text-shadow: 2px 2px 4px black;
+}
+#page2 {
+  background-color: #ffe30a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170%;
+}
+#p2content {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 150px 230px;
+}
+#p2content #leftsection {
+  padding-top: 110px;
+}
+#upperleft h2 {
+  font-size: 120px;
+  padding-bottom: 50px;
+  line-height: 110px;
+  font-weight: 900;
+}
+#rightsection #bigimg {
+  width: 350px;
+}
+#toon_png {
+  width: 230px;
+  position: absolute;
+  left: 79%;
+  top: 177%;
+}
+#p3content {
+  background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 205%;
+}
+#p3content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 180px;
+}
+#p3content h1 {
+  color: #ffe30a;
+  font-size: 150px;
+}
+#p3content p {
+  color: #fffffc;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+#p3other {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 50px;
+}
+#p3content button {
+  background-color: #ffe30a;
+  width: 210px;
+  height: 70px;
+  border-radius: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#page4 {
+  position: relative;
+  background-color: #151400;
+  height: 250%;
+  margin-top: 200px;
+}
+#p4content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 20%;
+  padding: 0px 200px;
+}
+#p4left {
+  margin-top: 170px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  font-size: 35px;
+}
+#p4left p {
+  margin: 200px 0 60px 0;
+}
+#p4left button {
+  width: 150px;
+  height: 60px;
+  background-color: #ffe30a;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+#p4rightimg {
+  width: 550px;
+  border-radius: 50px;
+}
+#page4part2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 200px 200px;
+}
+#p4-2-txt {
+  display: flex;
+  color: #ffe30a;
+  font-family: RightGroteskBold;
+}
+#p4-2-txt h2 {
+  margin-top: 0;
+  font-size: 130px;
+}
+#yoyo {
+  color: #ffe30a;
+  height: 90px;
+  align-items: flex-end;
+}
+#p4-2-btn button {
+  width: 190px;
+  height: 60px;
+  background-color: #ffe30a;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+#page5 {
+  background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+  height: 200%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  top: 465%;
+}
+#p5main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px 0 250px;
+}
+#p5left {
+  width: 384px;
+  height: 448px;
+  background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+  border-radius: 40px;
+  background-position: center;
+  background-size: cover;
+}
+#p5upper {
+  width: 528px;
+  height: 448px;
+  background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+  border-radius: 40px;
+  background-position: center;
+  background-size: cover;
+}
+#p5lower {
+  width: 384px;
+  height: 448px;
+  background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+}
+#p5right {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#commonpng img{
+  position: absolute;
+  z-index: 9;
+  top: 608%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer1{
+  background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50%;
+  top: 620%;
+  width: 100%;
+}
+#footer2{
+  background-color: #ffe30a;
+   position: absolute;
+  height: 75%;
+  top: 625%;
+  width: 100%;
+
+}
+#f1{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 80px;
+}
+.f1content p{
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 25px;
+}
+.f1content ul{
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 900;
+  font-family:ogg;
+  list-style: none;
+}
+.f1content ul li a{
+  text-decoration: none;
+  color: black;
+}
+#f2{
+position: absolute;
+top: 73%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+justify-content: space-between;
+width: 350px;
+}
+#f3{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+}
+#f3-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+#f3-1 p a{
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#f3 p a{
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+#f3 p{
+ padding-right: 0px;
+  font-size: 20px;
+}
+.p5layer{
+  background-color: #151400a7;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p5layer button{
+  height: 40px;
+  margin:20px 35px ;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+  font-size: 20px;
+}
+.p5layer #b1{
+  background-color:hsl(254, 100%, 71%);
+  margin-left: 250PX;
+  width: 80px;
+}
+.p5layer #b2{
+  background-color:#fc6060;
+  width: 110px;
+}
+.p5layer #b3{
+  background-color:#FFE500;
+  width: 120px;
+}
+.p5_bottom{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  color: white;
+  margin: 30px;
+}
+.min_3{
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.p5_bottom h1{
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
